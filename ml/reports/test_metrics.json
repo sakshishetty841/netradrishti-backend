@@ -1,0 +1,90 @@
+{
+  "model_architecture": "EfficientNet-B0",
+  "selected_loss_strategy": "Model B (Focal Loss gamma=2.0)",
+  "eval_dataset": "MESSIDOR-2 Held-Out Test Set",
+  "total_test_samples": 262,
+  "accuracy": 0.729,
+  "macro_precision": 0.7211,
+  "macro_recall": 0.6386,
+  "macro_f1": 0.6659,
+  "weighted_f1": 0.7118,
+  "per_class_metrics": {
+    "No DR": {
+      "grade": 0,
+      "support": 153,
+      "precision": 0.7803,
+      "recall_sensitivity": 0.8824,
+      "specificity": 0.6514,
+      "f1_score": 0.8282
+    },
+    "Mild NPDR": {
+      "grade": 1,
+      "support": 41,
+      "precision": 0.3462,
+      "recall_sensitivity": 0.2195,
+      "specificity": 0.9231,
+      "f1_score": 0.2687
+    },
+    "Moderate NPDR": {
+      "grade": 2,
+      "support": 52,
+      "precision": 0.7292,
+      "recall_sensitivity": 0.6731,
+      "specificity": 0.9381,
+      "f1_score": 0.7
+    },
+    "Severe NPDR": {
+      "grade": 3,
+      "support": 11,
+      "precision": 0.75,
+      "recall_sensitivity": 0.8182,
+      "specificity": 0.988,
+      "f1_score": 0.7826
+    },
+    "Proliferative DR": {
+      "grade": 4,
+      "support": 5,
+      "precision": 1.0,
+      "recall_sensitivity": 0.6,
+      "specificity": 1.0,
+      "f1_score": 0.75
+    }
+  },
+  "confusion_matrix": [
+    [
+      135,
+      13,
+      5,
+      0,
+      0
+    ],
+    [
+      27,
+      9,
+      5,
+      0,
+      0
+    ],
+    [
+      10,
+      4,
+      35,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      9,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      3
+    ]
+  ]
+}

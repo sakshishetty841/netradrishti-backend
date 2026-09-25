@@ -1,0 +1,45 @@
+{
+  "dataset_name": "MESSIDOR-2 Preprocessed",
+  "total_records": 1744,
+  "matched_images": 1744,
+  "usable_images": 1744,
+  "corrupted_images": 0,
+  "duplicate_images": 0,
+  "image_dimensions_distribution": {
+    "512x512": 1744
+  },
+  "class_counts": {
+    "0": 1017,
+    "1": 270,
+    "2": 347,
+    "3": 75,
+    "4": 35
+  },
+  "class_distribution": {
+    "0": {
+      "name": "No DR",
+      "count": 1017,
+      "percentage": 58.31
+    },
+    "1": {
+      "name": "Mild NPDR",
+      "count": 270,
+      "percentage": 15.48
+    },
+    "2": {
+      "name": "Moderate NPDR",
+      "count": 347,
+      "percentage": 19.9
+    },
+    "3": {
+      "name": "Severe NPDR",
+      "count": 75,
+      "percentage": 4.3
+    },
+    "4": {
+      "name": "Proliferative DR",
+      "count": 35,
+      "percentage": 2.01
+    }
+  }
+}

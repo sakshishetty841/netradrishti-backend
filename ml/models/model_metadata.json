@@ -1,0 +1,11 @@
+{
+  "model_version": "netradrishti-dr-v2",
+  "dataset": "MESSIDOR-2",
+  "architecture": "EfficientNet-B0",
+  "selected_loss_strategy": "Model B (Focal Loss gamma=2.0)",
+  "classes": 5,
+  "training_samples": 1220,
+  "best_epoch": 12,
+  "best_val_macro_f1": 0.5984,
+  "torch_version": "2.8.0"
+}

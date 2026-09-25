@@ -1,0 +1,45 @@
+{
+  "No DR": {
+    "precision": 0.7803468208092486,
+    "recall": 0.8823529411764706,
+    "f1-score": 0.8282208588957055,
+    "support": 153.0
+  },
+  "Mild NPDR": {
+    "precision": 0.34615384615384615,
+    "recall": 0.21951219512195122,
+    "f1-score": 0.26865671641791045,
+    "support": 41.0
+  },
+  "Moderate NPDR": {
+    "precision": 0.7291666666666666,
+    "recall": 0.6730769230769231,
+    "f1-score": 0.7,
+    "support": 52.0
+  },
+  "Severe NPDR": {
+    "precision": 0.75,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.782608695652174,
+    "support": 11.0
+  },
+  "Proliferative DR": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.75,
+    "support": 5.0
+  },
+  "accuracy": 0.7290076335877863,
+  "macro avg": {
+    "precision": 0.7211334667259522,
+    "recall": 0.6386247755114327,
+    "f1-score": 0.665897254193158,
+    "support": 262.0
+  },
+  "weighted avg": {
+    "precision": 0.7051604501633182,
+    "recall": 0.7290076335877863,
+    "f1-score": 0.7117992841082106,
+    "support": 262.0
+  }
+}

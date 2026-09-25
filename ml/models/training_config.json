@@ -1,0 +1,9 @@
+{
+  "architecture": "EfficientNet-B0",
+  "selected_strategy": "Model B (Focal Loss gamma=2.0)",
+  "epochs": 20,
+  "batch_size": 32,
+  "best_epoch": 12,
+  "best_val_macro_f1": 0.5984,
+  "device": "mps"
+}

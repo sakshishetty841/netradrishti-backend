@@ -1,0 +1,26 @@
+{
+  "selected_strategy": "Model B (Focal Loss gamma=2.0)",
+  "strategy_comparison": [
+    {
+      "strategy": "Model A (Weighted Cross Entropy)",
+      "best_epoch": 8,
+      "val_macro_f1": 0.5609,
+      "val_g3_recall": 0.6667,
+      "val_g4_recall": 0.2
+    },
+    {
+      "strategy": "Model B (Focal Loss gamma=2.0)",
+      "best_epoch": 12,
+      "val_macro_f1": 0.5984,
+      "val_g3_recall": 0.6667,
+      "val_g4_recall": 0.4
+    },
+    {
+      "strategy": "Model C (Weighted Focal Loss)",
+      "best_epoch": 17,
+      "val_macro_f1": 0.3468,
+      "val_g3_recall": 0.75,
+      "val_g4_recall": 0.2
+    }
+  ]
+}

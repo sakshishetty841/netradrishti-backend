@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - DATABASE_URL=postgresql://netra_user:netra_pass@db:5432/netradrishti_db
+      - SECRET_KEY=netradrishti_super_secret_jwt_key_rural_health_2026_sih
+      - MEDIA_DIR=/app/media
+    volumes:
+      - media_data:/app/media
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_USER=netra_user
+      - POSTGRES_PASSWORD=netra_pass
+      - POSTGRES_DB=netradrishti_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+  media_data:

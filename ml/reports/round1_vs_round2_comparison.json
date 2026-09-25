@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "accuracy": {
+      "round1": 0.6336,
+      "round2": 0.729
+    },
+    "macro_precision": {
+      "round1": 0.6632,
+      "round2": 0.7211
+    },
+    "macro_recall": {
+      "round1": 0.5872,
+      "round2": 0.6386
+    },
+    "macro_f1": {
+      "round1": 0.5936,
+      "round2": 0.6659
+    },
+    "weighted_f1": {
+      "round1": 0.6505,
+      "round2": 0.7118
+    }
+  },
+  "per_class_recall": {
+    "No DR": {
+      "round1": 0.6928,
+      "round2": 0.8824
+    },
+    "Mild NPDR": {
+      "round1": 0.3902,
+      "round2": 0.2195
+    },
+    "Moderate NPDR": {
+      "round1": 0.6346,
+      "round2": 0.6731
+    },
+    "Severe NPDR": {
+      "round1": 0.8182,
+      "round2": 0.8182
+    },
+    "Proliferative DR": {
+      "round1": 0.4,
+      "round2": 0.6
+    }
+  }
+}
